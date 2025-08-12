@@ -126,11 +126,11 @@ h3 {
 
 /* carrossel */
 .carousel {
-    max-width: 600px;          /* Largura máxima do carrossel */
+    max-width: 800px;          /* Largura máxima do carrossel */
     margin: 0 auto;            /* Centraliza o carrossel na tela */
 }
 
 .carousel img {
-    height: 300px;             /* Altura fixa para as imagens */
+    height: 600px;             /* Altura fixa para as imagens */
     object-fit: cover;         /* Mantém proporção e corta excesso */
 }
