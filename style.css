@@ -113,4 +113,25 @@ img {
     font-weight: bold;
   }
 
-  
+h1 {
+    text-align: center;        /* Centraliza horizontalmente */
+    margin-top: 20px;          /* Espaço acima */
+    margin-bottom: 20px;       /* Espaço abaixo */
+}
+
+h3 {
+    text-align: center;        /* Centraliza horizontalmente */
+    margin-top: 20px;          /* Espaço acima */
+    margin-bottom: 20px;       /* Espaço abaixo */
+}
+
+/* carrossel */
+.carousel {
+    max-width: 600px;          /* Largura máxima do carrossel */
+    margin: 0 auto;            /* Centraliza o carrossel na tela */
+}
+
+.carousel img {
+    height: 300px;             /* Altura fixa para as imagens */
+    object-fit: cover;         /* Mantém proporção e corta excesso */
+}

@@ -2,7 +2,11 @@
 <html>
 <head>
 <title>Sobre</title>
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,30 +23,51 @@
 
 <!-- Imagem de Destaque -->
     <div class="colorful"></div>
-
+<br>
     <h1>Estes são os meus hobbies.</h1>
 
-  
-  <div class="hobbies-container">
-<div class="hobby">
-<img src="./escrever.jpg" alt="Escrever">
-<p>Escrever</p>
+  <br>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./escrever.jpg" class="d-block w-100" alt="escrever">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Escrever</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./pintar.jpg" class="d-block w-100" alt="pintar">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pintar</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./cantar.jpg" class="d-block w-100" alt="cantar">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cantar mal</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<div class="hobby">
-<img src="./pintar.jpg" alt="Pintar">
-<p>Pintar</p>
-</div>
-<div class="hobby">
-<img src="./cantar.jpg" alt="Cantar">
-<p>Cantar muito mal.</p>
-</div>
-</div>
- 
+
+<br>
 
 </table>
 
-    
-    
  <h3>Quais são os teus hobbies?</h3>
   <div id="caixa-comentarios">
       <h2>Deixa o teu comentário!</h2>
