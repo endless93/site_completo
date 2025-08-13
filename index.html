@@ -1,40 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt"></html>
+<html lang="pt">
+
+</html>
 <html>
-  <head>
-       <meta charset="UTF-8"> <!-- para que serve isto???-->
-    <title>Homepage</title>
-     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
 
   <!-- Menu de Navegação -->
-    <nav>
-        <ul>
-            <li><a href="./index">Home</a></li>
-            <li><a href="./sobre.html">Sobre</a></li>
-            <li><a href="./contactos.html">Contactos</a></li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactos.html">Contactos</a>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-<!-- Imagem de Destaque -->
-    <div class="colorful"></div>
+  <!-- Imagem de Destaque -->
+  <div class="colorful"></div>
 
-    <h1>Bem Vindos.</h1>
+  <h1>Bem Vindos.</h1>
 
-    <p>Esta é a minha pánina.</p>
-    <p>Para saber mais sobre mim podem ir à pagina <a href="./sobre.html">sobre</a>.</p>
-    <p>Para contactar podem ir à pagina <a href="./contactos.html">contactos</a>, ou entrar em contacto através do rodapé.</p>
-    
-    <p>Entretanto, desejo a todos um bom dia.</p>
+  <p>Esta é a minha pánina.</p>
 
-    <p><i>Obrigada.</i></p>
- 
- <!-- Rodapé -->
-    <footer>
-        <p>2025 Daniela. Todos os direitos reservados.</p>
-        <a href="mailto:danielalameira07@hotmail.com">Enviar email</a>
-    </footer>
+  <div class="centrar-elementos">
+    <div class="card" style="width: 18rem;">
+      <img src="./kika.jpg" class="card-img-top" alt="Gata">
+      <div class="card-body">
+        <p class="card-text">Sim sou uma gata.</p>
+        <a href="https://www.petspyjamas.com/blog/top-cats-of-instagram/" class="btn btn-primary">Clica para veres
+          gatos</a>
+      </div>
+    </div>
+  </div>
+  <br>
 
-  </body>
+  <p>Para saber mais sobre mim podem ir à pagina <a href="./sobre.html">sobre</a>.</p>
+  <p>Para contactar podem ir à pagina <a href="./contactos.html">contactos</a>, ou entrar em contacto através do rodapé.
+  </p>
+
+  <p>Entretanto, desejo a todos um bom dia.</p>
+
+  <p><i>Obrigada.</i></p>
+
+  <!--rodapé-->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="mailto:danielalameira07@hotmail.com"
+          class="nav-link px-2 text-body-secondary">Enviar Email</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/daniela-lameira/"
+          class="nav-link px-2 text-body-secondary">linkedin</a></li>
+      <li class="nav-item"><a href="https://wa.me/3519100000000" class="nav-link px-2 text-body-secondary">WhatsApp</a>
+      </li>
+      <li class="nav-item"><a href="tel:+35191000000000" class="nav-link px-2 text-body-secondary">Telemóvel</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQ</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2025 Daniela.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
