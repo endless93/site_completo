@@ -84,10 +84,10 @@ justify-content: center;
 /* Estilo do rodapé */
 footer {
    background-color:#fdf2cd;
-            color: rgb(7, 7, 7);
-            text-align: center;
-  margin-top: 50px;
-  margin-bottom: 0;
+   color: rgb(7, 7, 7);
+    text-align: center;
+   margin-top: 50px;
+   bottom: 0%;
 }
 
 
